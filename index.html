@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="captcha-container">
+      <div class="mainsec">
+        <div>
+          <label for="">First Name :</label>
+          <input type="text" placeholder="First Name" />
+        </div>
+        <div>
+          <label for="">Last Name :</label>
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <div>
+          <label for="">Email : </label
+          ><input type="email" placeholder="email" />
+        </div>
+        <div>
+          <label for="">Linkedin :</label>
+          <input type="url" placeholder="Link" />
+        </div>
+      </div>
+      <div class="last">
+        <p>Prove you are Human:</p>
+        <div class="captcha">
+          <span id="captchaText"></span>
+          <input
+            type="text"
+            id="captchaInput"
+            placeholder="Enter the text above"
+          />
+        </div>
+        <button id="checkCaptcha">Submit</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

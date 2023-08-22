@@ -1,0 +1,83 @@
+body {
+  background-color: #f6f6f6;
+}
+.captcha-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  background-color: rgb(175, 223, 255);
+  border-style: groove;
+}
+.mainsec {
+  padding: 1rem;
+}
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.7rem;
+  margin-left: 3rem;
+}
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 20rem;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  margin-left: 2.8rem;
+}
+input[type="email"] {
+  margin-left: 6rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 20rem;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  margin-left: 6.3rem;
+}
+input[type="url"] {
+  margin-left: 4rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 20rem;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  margin-left: 4rem;
+}
+.last {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.captcha {
+  display: inline-block;
+  background-color: #cac6c6;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-left: 4rem;
+}
+
+#captchaInput {
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+#checkCaptcha {
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.4rem;
+  border: none;
+  padding: 10px 20px;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
